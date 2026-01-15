@@ -5,8 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Forney Roofers</title>
+    <link rel="stylesheet" href="Style.css">
     <style>
-        * {
+        /* * {
             margin: 0;
             padding: 0;
         }
@@ -106,7 +107,7 @@
 
         .navbar ul li a {
             text-decoration: none;
-            padding: 5px 6px;
+            padding: 8px 15px;
             font-size: 20px;
             color: rgb(255, 249, 249);
         }
@@ -163,6 +164,12 @@
             height: 575px;
             z-index: -1;
             opacity: 0.89;
+        }
+
+        @media (min-width: 1000px) {
+            .home::before {
+                height: 641px;
+            }
         }
 
         @media (min-width: 500px) and (max-width: 1000px) {
@@ -400,6 +407,8 @@
                 width: 42%;
                 padding: 90px 112px;
                 align-items: baseline;
+                display: block;
+                margin: auto;
             }
         }
 
@@ -475,7 +484,7 @@
             }
 
             .doxy h5 {
-                width: 35%;
+                width: 45%;
             }
 
             .btn3 {
@@ -491,36 +500,39 @@
 
         @media (min-width: 500px) and (max-width: 1000px) {
             .doxy h5 {
-                width: 35%;
+                width: 55%;
             }
 
+            /* 
             .doxy h1 {
                 width: 35%;
-            }
+            } */
         }
 
         @media (min-width: 300px) and (max-width: 500px) {
             .doxy h5 {
-                width: 35%;
+                width: 45%;
             }
 
-            .doxy h1 {
-                width: 35%;
-            }
+            /* .doxy h1 {
+                width: 135%;
+            } */
         }
 
         @media (max-width: 300px) {
             .doxy h5 {
-                width: 35%;
+                width: 45%;
             }
 
-            .doxy h1 {
-                width: 35%;
-            }
+            /* .doxy h1 {
+                width: 135%;
+            } */
         }
 
         .doxy p {
-            margin: 9px 2px;
+            margin: 15px 1px;
+            width: 106%;
+            font-size: 23px;
         }
 
         .doxy h1 {}
@@ -533,18 +545,20 @@
 
         @media (min-width: 300px) and (max-width: 500px) {
             .doxy h1 {
-                width: 108%;
+                width: 138%;
             }
         }
 
         @media (max-width: 300px) {
             .doxy h1 {
-                width: 108%;
+                width: 138%;
             }
         }
 
         .kkk img {
-            width: 322px;
+            width: 294px;
+            margin: auto;
+            display: block;
         }
 
         .kkk h3 {
@@ -713,14 +727,14 @@
             margin: 3px 58px;
         }
 
-        @media (min-width: 500px) and (max-width: 1000px) {
+        @media (min-width: 700px) and (max-width: 1000px) {
             .end1 {
-                flex-direction: column;
+                /* flex-direction: column; */
                 align-items: center;
             }
         }
 
-        @media (min-width: 300px) and (max-width: 500px) {
+        @media (min-width: 300px) and (max-width: 700px) {
             .end1 {
                 flex-direction: column;
                 align-items: center;
@@ -741,15 +755,33 @@
 
         @media (min-width: 500px) and (max-width: 1000px) {
             .end3 {
-                padding: 18px 56px;
+                padding: 18px 29px;
+                /* width: 233%; */
 
+            }
+
+            .end p {
+                width: 115%;
+            }
+        }
+
+        @media (min-width: 300px) and (max-width: 500px) {
+            .end p {
+                width: 238%;
+            }
+
+            .end3 h3 {
+                width: 144%;
             }
         }
 
         @media (max-width: 300px) {
             .end3 {
                 padding: 18px 56px;
+            }
 
+            .end3 h3 {
+                width: 144%;
             }
         }
 
@@ -778,6 +810,18 @@
                 display: flex;
             }
         }
+
+        @media (min-width: 300px) and (max-width: 500px) {
+            .img-con {
+                display: flex;
+            }
+        }
+
+        @media (max-width: 300px) {
+            .img-con {
+                display: flex;
+            }
+        } */
     </style>
 </head>
 
@@ -839,7 +883,8 @@
             </div>
             <div class="bun">
                 <!-- <img src="https://cdn.pixabay.com/photo/2013/07/12/18/35/world-153534_640.png" alt="" srcset=""> -->
-                <img src="https://cdn.pixabay.com/photo/2013/07/12/15/28/hypothecary-credit-149895_640.png" alt="" srcset="">
+                <img src="https://cdn.pixabay.com/photo/2013/07/12/15/28/hypothecary-credit-149895_640.png" alt=""
+                    srcset="">
                 <h2>Metal Roofing</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse accusamus aut dolorem qui quae
                     voluptates consequuntur temporibus aspernatur vel expedita, voluptatem, saepe dignissimos ipsam ab
@@ -855,7 +900,8 @@
                 <button type="button">Learn More --></button>
             </div>
             <div class="bun">
-                <img src="https://cdn.pixabay.com/photo/2016/03/18/15/08/slightly-cloudy-1265210_640.png" alt="" srcset="">
+                <img src="https://cdn.pixabay.com/photo/2016/03/18/15/08/slightly-cloudy-1265210_640.png" alt=""
+                    srcset="">
                 <h2>Storm Damage</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse accusamus aut dolorem qui quae
                     voluptates consequuntur temporibus aspernatur vel expedita, voluptatem, saepe dignissimos ipsam ab
